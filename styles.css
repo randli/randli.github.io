@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+html{
+  text-align: center;
+  background: #E8B157;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+h1 {
+color: blue;
+text-decoration: underline;
+}
+
+p{
+  font-family: Roboto, Arial;
+}
+
+a{
+  text-decoration: none;
+}
+
+.key, .piece{
+  background: yellow;
+  border-style: groove;
+  border-color: #0F45E8;
+  margin: 10px;
+}
+
+.piece{
+  color: #FF298F;
+}
+
+#music_list{
+  display:inline-flex;
+}
+
+nav li{
+  display: inline;
+  letter-spacing: 1px;
+}
